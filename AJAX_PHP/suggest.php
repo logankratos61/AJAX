@@ -1,26 +1,26 @@
 <?php
-
-$people[] = "ashsih1";
-$people[] = "amit";
-$people[] = "ankit";
-$people[] = "aman";
-$people[] = "devsh";
-$people[] = "vasudev";
-$people[] = "yashveer";
-$people[] = "righved";
-$people[] = "rachel";
-$people[] = "monica";
-$people[] = "phebe";
-$people[] = "joey";
-$people[] = "chandler";
-$people[] = "sarcasm";
-$people[] = "Bhawna";
+//will be taken from the database but i am providing the names manually. 
+$people[] = "Ashsih";
+$people[] = "Amit";
+$people[] = "Ankit";
+$people[] = "Aman";
+$people[] = "Devsh";
+$people[] = "Vasudev";
+$people[] = "Yashveer";
+$people[] = "Righved";
+$people[] = "Rachel";
+$people[] = "Monica";
+$people[] = "Phebe";
+$people[] = "Joey";
+$people[] = "Chandler";
+$people[] = "Sarcasm";
+$people[] = "Jaspal";
 $people[] = "Golu";
-$people[] = "aditya";
-$people[] = "dhruv";
+$people[] = "Aditya";
+$people[] = "Dhruv";
 $people[] = "Uddeshya";
-$people[] = "anik";
-$people[] = "aniket";
+$people[] = "Anik";
+$people[] = "Aniket";
 
 // Get Query string
 $q = $_REQUEST['q'];
@@ -42,5 +42,5 @@ foreach($people as $person){
 
 }
 
-echo $suggestion === "" ? "No":$suggestion;
+echo $suggestion === "" ? "No suggestions":$suggestion;
 ?>
