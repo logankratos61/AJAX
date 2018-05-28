@@ -7,7 +7,7 @@
     <title> Search Box</title>
      <link  rel="stylesheet" href="https://bootswatch.com/4/cerulean/bootstrap.min.css">
      <script>
-        function showSuggetion(str){
+        function showSuggestion(str){
                
             if(str.length == 0){
                 document.getElementById('output').innerHTML = '';
@@ -32,7 +32,7 @@
     <h1>Search User</h1> 
     <br><br>
     <form>
-    Search user <input type="text" class="form-control" onkeyup="showSuggetion(this.value)">
+    Search user <input type="text" class="form-control" onkeyup="showSuggestion(this.value)">
     </form>
     <br><br>
     <p>Suggetions: <span id="output" style="font-weight:bold"></span></p>
